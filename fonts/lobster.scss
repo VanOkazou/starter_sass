@@ -1,0 +1,10 @@
+// Lobster font
+
+$lobster-font-path: $font-path !default;
+
+@font-face {
+    font-family: 'lobster regular';
+    src: url('#{$lobster-font-path}/Lobster.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

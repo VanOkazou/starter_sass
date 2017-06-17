@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+$buyer-font-path: $font-path !default;
+
+@font-face {
+  font-family: "buyer";
+  src:url("#{$buyer-font-path}/buyer.eot");
+  src:url("#{$buyer-font-path}/buyer.eot?#iefix") format("embedded-opentype"),
+    url("#{$buyer-font-path}/buyer.woff") format("woff"),
+    url("#{$buyer-font-path}/buyer.ttf") format("truetype"),
+    url("#{$buyer-font-path}/buyer.svg#buyer") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "buyer" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="buyer-icon-"]:before,
+[class*=" buyer-icon-"]:before {
+  font-family: "buyer" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.buyer-icon-check:before {
+    content: "\61";
+}
+.buyer-icon-home:before {
+    content: "\62";
+}
+.buyer-icon-offer:before {
+    content: "\63";
+}
+.buyer-icon-offers:before {
+    content: "\64";
+}
+.buyer-icon-double-chevron-left:before {
+    content: "\65";
+}
+.buyer-icon-double-chevron-right:before {
+    content: "\66";
+}
+.buyer-icon-logout:before {
+    content: "\67";
+}
+.buyer-icon-trash:before {
+    content: "\6a";
+}
+.buyer-icon-bill:before {
+    content: "\6b";
+}
+.buyer-icon-download:before {
+    content: "\6c";
+}
+.buyer-icon-user:before {
+    content: "\6d";
+}
+.buyer-icon-shop:before {
+    content: "\68";
+}
+.buyer-icon-banknote:before {
+    content: "\69";
+}
+.buyer-icon-eye:before {
+    content: "\6e";
+}
+.buyer-icon-eye-slash:before {
+    content: "\6f";
+}
+.buyer-icon-buyer-fonts-offer-historique:before {
+  content: "\70";
+}
